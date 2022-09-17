@@ -1,0 +1,71 @@
+* {
+    background-color: thistle;
+}
+
+#name-title {
+    text-align: center;
+}
+
+#nav-bar-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+#nav-bar-links li {
+    display: inline;
+}
+
+#nav-bar-links li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+
+}
+
+#nav-bar-links li a:hover {
+    background-color: blueviolet;
+    color: white;
+}
+
+#pic-of-me {
+    display: block;
+    float: left;
+    height: 15%;
+    width: 25%;
+    border-style: solid;
+    border-width: medium;
+}
+
+#bio-text {
+    text-align: left;
+    margin: 0% 35% 0% 30%;
+    border-style: solid;
+}
+
+#my-work-content {
+    display: block;
+    float: left;
+}
+
+#contact-info-content {
+    display: block;
+    text-align: left;
+    margin: 5% 35% 0% 30%;
+}
+
+#my-work-1 {
+    height: 50%;
+    width: 70%;
+}
+
+#ch-2-text-box {
+    border-style: solid;
+    width: fit-content;
+}
+
+/* Mobile Phones Screen Responsiveness Below */
+@media only screen and (max-width: 500px) {
+
+}
